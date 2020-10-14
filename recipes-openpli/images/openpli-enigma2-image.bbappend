@@ -12,19 +12,19 @@ DEPENDS += "\
 	"
 
 ENIGMA2_PLUGINS_remove += "\
+	enigma2-plugin-extensions-dlnabrowser \
+	enigma2-plugin-extensions-dlnaserver \
 	"
 
 # Add enigma2-plugin-extensions-openwebif-extras to replace enigma2-plugin-extensions-openwebif
 # Ship some extra stuff with the image like youtube, serviceapp, iptvplayer etc..
 ENIGMA2_PLUGINS_append += "\
-	enigma2-plugin-extensions-youtube \
 	enigma2-plugin-systemplugins-vps \
 	"
 
 
 IMAGE_INSTALL += "\
 	enigma2-plugin-skins-simple-gray-hd \
-        enigma2-plugin-skins-mx-hq7 \
 	"
 
 WIFI_DRIVERS_remove_sh4 = " \
