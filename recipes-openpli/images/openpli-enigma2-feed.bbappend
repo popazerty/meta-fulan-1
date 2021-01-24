@@ -25,6 +25,7 @@ OPTIONAL_WIFI_PACKAGES_remove_sh4 += "\
 OPTIONAL_PACKAGES_remove_sh4 += "\
 	gdb \
 	nodejs \
+	zerotier \
 	"
 
 OPTIONAL_PACKAGES_append += "\
