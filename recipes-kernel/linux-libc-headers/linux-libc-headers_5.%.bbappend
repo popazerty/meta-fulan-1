@@ -10,6 +10,7 @@ SRC_URI_append_sh4 += "\
     file://stm_ioctls.h \
     file://bpamem.h \
     file://st-coprocessor.h \
+    file://fsxattr.patch \
 "
 
 do_install_append_sh4() {

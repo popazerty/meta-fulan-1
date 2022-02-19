@@ -12,8 +12,6 @@ DEPENDS += "\
 	"
 
 ENIGMA2_PLUGINS_remove += "\
-	enigma2-plugin-extensions-dlnabrowser \
-	enigma2-plugin-extensions-dlnaserver \
 	"
 
 # Add enigma2-plugin-extensions-openwebif-extras to replace enigma2-plugin-extensions-openwebif

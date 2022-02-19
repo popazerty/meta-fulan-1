@@ -16,7 +16,9 @@ OPTIONAL_WIFI_PACKAGES_remove_sh4 += "\
 	\
 	${@ 'kernel-module-88xxau' if ("${KERNEL_VERSION}" and bb.utils.vercmp_string("${KERNEL_VERSION}", '4.0') >= 0) else '' } \
 	kernel-module-88x2bu \
+	kernel-module-8821cu \
 	kernel-module-8189es \
+	kernel-module-8192fu \
 	firmware-rtl8723bu \
 	firmware-rtl8188eu  \
 	firmware-rtl8192eu \
